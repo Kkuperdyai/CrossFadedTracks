@@ -1,0 +1,16 @@
+PODS:
+  - Cephalopod (4.0.0)
+
+DEPENDENCIES:
+  - Cephalopod
+
+SPEC REPOS:
+  trunk:
+    - Cephalopod
+
+SPEC CHECKSUMS:
+  Cephalopod: 1afbb532692adad579ba768bcc71018d6386d1e3
+
+PODFILE CHECKSUM: 5acf92c7852f4b053ba844b2c9b1a98003a6eb81
+
+COCOAPODS: 1.10.1

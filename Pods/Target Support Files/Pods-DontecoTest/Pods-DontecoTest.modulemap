@@ -1,0 +1,6 @@
+framework module Pods_DontecoTest {
+  umbrella header "Pods-DontecoTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

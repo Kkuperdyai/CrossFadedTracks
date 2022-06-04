@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3A646B27FF1BF7006C24F8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A646927FF1BF7006C24F8 /* TableViewCell.swift */; };
+		1F3A646C27FF1BF7006C24F8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A646A27FF1BF7006C24F8 /* TableViewCell.xib */; };
+		1F62911527FE23EB002EE5A1 /* 12345.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F62911427FE23EB002EE5A1 /* 12345.mp3 */; };
+		1F62911827FEFFA0002EE5A1 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62911627FEFFA0002EE5A1 /* TracksViewController.swift */; };
+		1F62911927FEFFA0002EE5A1 /* TracksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F62911727FEFFA0002EE5A1 /* TracksViewController.xib */; };
+		1FA793B42802CBA600DFDCEC /* Tomatoes-O8L8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FA793B32802CBA600DFDCEC /* Tomatoes-O8L8.ttf */; };
+		1FB32F4727FCB23200316533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB32F4627FCB23200316533 /* AppDelegate.swift */; };
+		1FB32F4927FCB23200316533 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB32F4827FCB23200316533 /* SceneDelegate.swift */; };
+		1FB32F4B27FCB23200316533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB32F4A27FCB23200316533 /* ViewController.swift */; };
+		1FB32F4E27FCB23200316533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB32F4C27FCB23200316533 /* Main.storyboard */; };
+		1FB32F5027FCB23300316533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB32F4F27FCB23300316533 /* Assets.xcassets */; };
+		1FB32F5327FCB23300316533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB32F5127FCB23300316533 /* LaunchScreen.storyboard */; };
+		1FB32F5F27FCC6DD00316533 /* 1234.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB32F5E27FCC6DD00316533 /* 1234.mp3 */; };
+		1FCB9F6A28023897001E04B1 /* SAAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB9F6928023897001E04B1 /* SAAButton.swift */; };
+		1FCB9F6C2802437C001E04B1 /* SAASlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB9F6B2802437C001E04B1 /* SAASlider.swift */; };
+		1FEC400E28005770002D9832 /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC400D28005770002D9832 /* Tracks.swift */; };
+		6EB086A3155A32E9C779D0A8 /* Pods_DontecoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5BD6F0483ACC27EB3FA3ED /* Pods_DontecoTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18257118BEBB72FFE26D9A94 /* Pods-DontecoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DontecoTest.debug.xcconfig"; path = "Target Support Files/Pods-DontecoTest/Pods-DontecoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		1F3A646927FF1BF7006C24F8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1F3A646A27FF1BF7006C24F8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		1F62911427FE23EB002EE5A1 /* 12345.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12345.mp3; sourceTree = "<group>"; };
+		1F62911627FEFFA0002EE5A1 /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
+		1F62911727FEFFA0002EE5A1 /* TracksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TracksViewController.xib; sourceTree = "<group>"; };
+		1FA793B32802CBA600DFDCEC /* Tomatoes-O8L8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tomatoes-O8L8.ttf"; sourceTree = "<group>"; };
+		1FB32F4327FCB23200316533 /* DontecoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontecoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB32F4627FCB23200316533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FB32F4827FCB23200316533 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FB32F4A27FCB23200316533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB32F4D27FCB23200316533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB32F4F27FCB23300316533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FB32F5227FCB23300316533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FB32F5427FCB23300316533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB32F5E27FCC6DD00316533 /* 1234.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1234.mp3; sourceTree = "<group>"; };
+		1FCB9F6928023897001E04B1 /* SAAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAAButton.swift; sourceTree = "<group>"; };
+		1FCB9F6B2802437C001E04B1 /* SAASlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAASlider.swift; sourceTree = "<group>"; };
+		1FEC400D28005770002D9832 /* Tracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+		7E4FD6F3405BFBA8CD3337C2 /* Pods-DontecoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DontecoTest.release.xcconfig"; path = "Target Support Files/Pods-DontecoTest/Pods-DontecoTest.release.xcconfig"; sourceTree = "<group>"; };
+		FB5BD6F0483ACC27EB3FA3ED /* Pods_DontecoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DontecoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB32F4027FCB23200316533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB086A3155A32E9C779D0A8 /* Pods_DontecoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3A647027FF3BDE006C24F8 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				1FB32F5E27FCC6DD00316533 /* 1234.mp3 */,
+				1F62911427FE23EB002EE5A1 /* 12345.mp3 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		1F62911B27FEFFB9002EE5A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F3A646927FF1BF7006C24F8 /* TableViewCell.swift */,
+				1F3A646A27FF1BF7006C24F8 /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F62911C27FEFFC0002EE5A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F62911627FEFFA0002EE5A1 /* TracksViewController.swift */,
+				1F62911727FEFFA0002EE5A1 /* TracksViewController.xib */,
+				1FB32F4A27FCB23200316533 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB32F3A27FCB23200316533 = {
+			isa = PBXGroup;
+			children = (
+				1FB32F4527FCB23200316533 /* DontecoTest */,
+				1FB32F4427FCB23200316533 /* Products */,
+				649FACA67B5B71318616E97E /* Pods */,
+				60EC10F527870F785B7E55E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB32F4427FCB23200316533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB32F4327FCB23200316533 /* DontecoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB32F4527FCB23200316533 /* DontecoTest */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB9F682802386F001E04B1 /* Control */,
+				1F3A647027FF3BDE006C24F8 /* Media */,
+				1FEC400C28005737002D9832 /* Models */,
+				1F62911B27FEFFB9002EE5A1 /* View */,
+				1F62911C27FEFFC0002EE5A1 /* Controller */,
+				1FB32F4627FCB23200316533 /* AppDelegate.swift */,
+				1FB32F4827FCB23200316533 /* SceneDelegate.swift */,
+				1FB32F4C27FCB23200316533 /* Main.storyboard */,
+				1FB32F4F27FCB23300316533 /* Assets.xcassets */,
+				1FB32F5127FCB23300316533 /* LaunchScreen.storyboard */,
+				1FB32F5427FCB23300316533 /* Info.plist */,
+				1FA793B32802CBA600DFDCEC /* Tomatoes-O8L8.ttf */,
+			);
+			path = DontecoTest;
+			sourceTree = "<group>";
+		};
+		1FCB9F682802386F001E04B1 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB9F6928023897001E04B1 /* SAAButton.swift */,
+				1FCB9F6B2802437C001E04B1 /* SAASlider.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1FEC400C28005737002D9832 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC400D28005770002D9832 /* Tracks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60EC10F527870F785B7E55E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BD6F0483ACC27EB3FA3ED /* Pods_DontecoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649FACA67B5B71318616E97E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18257118BEBB72FFE26D9A94 /* Pods-DontecoTest.debug.xcconfig */,
+				7E4FD6F3405BFBA8CD3337C2 /* Pods-DontecoTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB32F4227FCB23200316533 /* DontecoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB32F5727FCB23300316533 /* Build configuration list for PBXNativeTarget "DontecoTest" */;
+			buildPhases = (
+				FF3965D6647C6BEFBEABC62E /* [CP] Check Pods Manifest.lock */,
+				1FB32F3F27FCB23200316533 /* Sources */,
+				1FB32F4027FCB23200316533 /* Frameworks */,
+				1FB32F4127FCB23200316533 /* Resources */,
+				EF022F143D3266707E6F650C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DontecoTest;
+			productName = DontecoTest;
+			productReference = 1FB32F4327FCB23200316533 /* DontecoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB32F3B27FCB23200316533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1FB32F4227FCB23200316533 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FB32F3E27FCB23200316533 /* Build configuration list for PBXProject "DontecoTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FB32F3A27FCB23200316533;
+			productRefGroup = 1FB32F4427FCB23200316533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB32F4227FCB23200316533 /* DontecoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB32F4127FCB23200316533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB32F5327FCB23300316533 /* LaunchScreen.storyboard in Resources */,
+				1FA793B42802CBA600DFDCEC /* Tomatoes-O8L8.ttf in Resources */,
+				1FB32F5027FCB23300316533 /* Assets.xcassets in Resources */,
+				1FB32F5F27FCC6DD00316533 /* 1234.mp3 in Resources */,
+				1F62911927FEFFA0002EE5A1 /* TracksViewController.xib in Resources */,
+				1FB32F4E27FCB23200316533 /* Main.storyboard in Resources */,
+				1F3A646C27FF1BF7006C24F8 /* TableViewCell.xib in Resources */,
+				1F62911527FE23EB002EE5A1 /* 12345.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF022F143D3266707E6F650C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DontecoTest/Pods-DontecoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DontecoTest/Pods-DontecoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DontecoTest/Pods-DontecoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3965D6647C6BEFBEABC62E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DontecoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB32F3F27FCB23200316533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F62911827FEFFA0002EE5A1 /* TracksViewController.swift in Sources */,
+				1FCB9F6A28023897001E04B1 /* SAAButton.swift in Sources */,
+				1FCB9F6C2802437C001E04B1 /* SAASlider.swift in Sources */,
+				1FB32F4B27FCB23200316533 /* ViewController.swift in Sources */,
+				1F3A646B27FF1BF7006C24F8 /* TableViewCell.swift in Sources */,
+				1FB32F4727FCB23200316533 /* AppDelegate.swift in Sources */,
+				1FB32F4927FCB23200316533 /* SceneDelegate.swift in Sources */,
+				1FEC400E28005770002D9832 /* Tracks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FB32F4C27FCB23200316533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB32F4D27FCB23200316533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FB32F5127FCB23300316533 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB32F5227FCB23300316533 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB32F5527FCB23300316533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FB32F5627FCB23300316533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FB32F5827FCB23300316533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18257118BEBB72FFE26D9A94 /* Pods-DontecoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DontecoTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuperdyai.DontecoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FB32F5927FCB23300316533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4FD6F3405BFBA8CD3337C2 /* Pods-DontecoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DontecoTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuperdyai.DontecoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB32F3E27FCB23200316533 /* Build configuration list for PBXProject "DontecoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB32F5527FCB23300316533 /* Debug */,
+				1FB32F5627FCB23300316533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB32F5727FCB23300316533 /* Build configuration list for PBXNativeTarget "DontecoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB32F5827FCB23300316533 /* Debug */,
+				1FB32F5927FCB23300316533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB32F3B27FCB23200316533 /* Project object */;
+}
